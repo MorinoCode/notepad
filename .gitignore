@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# WXT & Extension Build Output
+.output/
+.wxt/
+*.zip
+web-ext-artifacts/
+stats.html
+
+# Production & Build outputs
+dist/
+build/
+out/
+
+# Tests & Coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment & secrets (never commit store credentials or API keys)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Extension signing keys & SSL certificates
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Local tools, caches & timestamps
+.freebuff/
+.cache/
+.turbo/
+.parcel-cache/
+*.tsbuildinfo
+*.timestamp-*
+
+# IDE & Editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

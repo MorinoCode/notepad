@@ -1,0 +1,24 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "verbatimModuleSyntax": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "types": ["vitest/globals"]
+  },
+  /*
+   * `.wxt/wxt.d.ts` must be listed explicitly: setting `include` here replaces the
+   * one WXT generates, and that file is what pulls in the `#imports` module
+   * declaration, the manifest icons, and the narrowed `browser.runtime.getURL`
+   * overloads.
+   */
+  "include": [".wxt/wxt.d.ts", "src", "tests", "*.config.ts", "wxt.config.ts"],
+  "exclude": ["node_modules", ".output", "coverage"]
+}

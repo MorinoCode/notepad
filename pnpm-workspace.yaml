@@ -1,0 +1,12 @@
+# pnpm 11 reads build-script approval and peer settings from this file rather than
+# from the `pnpm` field in package.json.
+#
+# esbuild needs its install script to wire up the platform binary that Vite uses;
+# without it `pnpm build` fails.
+onlyBuiltDependencies:
+  - esbuild
+  - "@tailwindcss/oxide"
+
+# Keep the dependency tree strict: a missing or conflicting peer should be loud.
+autoInstallPeers: false
+strictPeerDependencies: true

@@ -1,0 +1,176 @@
+# Notewisp — English messages.
+#
+# Notes on the format:
+# - Keys are referenced with `i18n.t('key')`. Nested keys are joined with dots.
+# - `$1`-`$9` are substitutions, passed as an array: i18n.t('k', ['value']).
+# - Prices are deliberately NOT in this file. Currency amounts belong to the
+#   billing provider and are rendered by the UI, so translators never have to
+#   worry about a `$` colliding with a substitution token.
+
+extName: Notewisp
+extDescription: Capture notes and reminders in one click, right from your toolbar.
+actionTitle: Notewisp — capture a note
+actionTitleWithDue: Notewisp — $1 need attention
+
+# Shared actions
+save: Save
+cancel: Cancel
+close: Close
+
+# Composer
+composerPlaceholder: Write a note…
+composerShortcutHint: Enter to add · Shift+Enter for a new line
+editShortcutHint: Ctrl/⌘+Enter to save · Esc to cancel
+composerAdd: Add note
+composerClipTab: Clip current page link
+composerChecklist: Add checklist
+composerBullet: Add bullet point
+composerBold: Bold text
+composerCode: Inline code
+counterWord: $1 word · $2 chars
+counterWords: $1 words · $2 chars
+
+# Reminders
+remindMe: Remind me
+reminderNone: No reminder
+reminderInOneHour: In 1 hour
+reminderThisEvening: This evening
+reminderTomorrow: Tomorrow 9 AM
+reminderCustom: Custom…
+reminderCustomLabel: Pick a date and time
+reminderToday: Today at $1
+reminderTomorrowAt: Tomorrow at $1
+reminderClear: Remove reminder
+reminderSet: Reminder set for $1
+
+# Statuses
+statusAll: All
+statusOpen: To do
+statusDoing: In progress
+statusDone: Done
+statusArchived: Archived
+statusChangeTo: Mark as $1
+
+# List
+searchPlaceholder: Search notes
+searchClear: Clear search
+emptyTitle: Nothing here yet
+emptyBody: Type above and press Enter. Notes save instantly.
+emptySearchTitle: No notes match
+emptySearchBody: Try another word, or pick a different tab.
+emptyArchivedTitle: Archive is empty
+emptyArchivedBody: Notes you archive show up here.
+
+# A note
+noteUntitled: Untitled note
+noteNoBody: No details
+noteActions: Note actions
+noteEdit: Edit
+noteCopy: Copy note
+noteCopied: Copied!
+noteDelete: Delete
+noteDeleted: Note deleted
+undo: Undo
+notePin: Pin to top
+noteUnpin: Unpin
+noteMarkDone: Mark as done
+noteReopen: Reopen
+noteArchive: Archive
+noteUnarchive: Move out of archive
+noteSaveFailed: Could not save your note. Please try again.
+noteDuplicate: Duplicate
+noteColor: Color
+colorDefault: Default
+colorAmber: Warm Amber
+colorEmerald: Mint Emerald
+colorBlue: Ocean Blue
+colorPurple: Soft Purple
+colorRose: Rose Quartz
+reminderInMinutes: in $1m
+tagFilter: "Tag: #$1"
+tagsAll: All tags
+exportMarkdown: Export to Markdown
+exportEmpty: No notes to export
+exportMarkdownDone: Notes exported as Markdown!
+
+# Usage and paywall
+usageTitle: $1 of $2 notes used
+usageUnlimited: Unlimited notes
+usageFull: Free limit reached
+paywallTitle: You've used all $1 free notes
+paywallBody: Notewisp is free for your first $1 notes. Upgrade for unlimited notes and reminders. Cancel anytime.
+paywallUpgrade: Upgrade to Notewisp Pro
+paywallPerMonth: per month
+paywallLater: Not now
+paywallRestore: Already subscribed? Restore access
+paywallManage: Manage subscription
+paywallOpening: Opening…
+paywallFailed: Could not open the payment page. Check your connection and try again.
+proActive: Pro plan active
+proManage: Change or cancel your subscription anytime.
+proSince: Subscribed $1
+planFree: Free plan
+planMonthly: Monthly plan
+planYearly: Yearly plan
+planLifetime: Lifetime access
+planOther: Paid plan
+
+# Settings
+settings: Settings
+settingsTitle: Notewisp settings
+settingsAccount: Account and plan
+settingsEmail: Email
+settingsStatus: Status
+statusValueActive: Active
+statusValuePastDue: Payment failed
+statusValueCanceled: Canceled
+settingsRefresh: Refresh plan status
+settingsRefreshed: Plan status updated
+settingsAppearance: Appearance
+themeSystem: Match system
+themeLight: Light
+themeDark: Dark
+themeOled: OLED Pure Black
+themeSepia: Warm Sepia
+settingsDefaultStatus: Status for new notes
+settingsReminders: Desktop reminders
+settingsRemindersHint: Off keeps reminders in the list without notifications.
+settingsData: Your data
+settingsDataHint: Notes live only on this device. Nothing is uploaded to a server.
+settingsExport: Export notes
+settingsImport: Import notes
+settingsReset: Delete all data
+settingsResetTitle: Delete everything?
+settingsResetBody: This permanently removes every note and setting from this device. It cannot be undone.
+settingsResetConfirm: Delete everything
+settingsImported: Imported $1 notes
+settingsImportSkipped: Imported $1 notes and skipped $2 unreadable entries
+settingsImportFailed: That file is not a Notewisp backup.
+settingsResetDone: All data deleted
+settingsExportDone: Backup downloaded
+settingsShortcuts: Keyboard shortcut
+settingsShortcutOpen: Open Notewisp
+settingsShortcutHint: Change it at chrome://extensions/shortcuts
+shortcutsTitle: Keyboard Shortcuts
+shortcutsDesc: Power through your notes without lifting your hands from the keyboard.
+shortcutAddNote: Save and add note immediately
+shortcutNewLine: Insert new line
+shortcutOpenPopup: Open Notewisp from anywhere
+shortcutSaveEdit: Save note while editing
+shortcutEscape: Clear search / Cancel edit / Close modal
+settingsAbout: About
+settingsVersion: Version $1
+settingsPrivacy: Privacy policy
+settingsSaved: Saved
+
+# Selections and notifications
+contextMenuSaveSelection: Save selection to Notewisp
+selectionSavedTitle: Saved to Notewisp
+notificationSnoozeTen: Snooze 10 min
+notificationMarkDone: Mark done
+limitReachedTitle: Free limit reached
+limitReachedBody: You already have $1 notes. Upgrade to Notewisp Pro for unlimited notes.
+
+# Errors
+errorTitle: Something went wrong
+errorRetry: Try again

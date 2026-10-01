@@ -1,0 +1,169 @@
+# Notewisp — Persian (فارسی) messages.
+
+extName: نوت‌ویسپ
+extDescription: ثبت سریع یادداشت‌ها و یادآورها با یک کلیک، مستقیماً از نوار ابزار مرورگر.
+actionTitle: نوت‌ویسپ — یادداشت‌برداری سریع
+actionTitleWithDue: نوت‌ویسپ — $1 مورد نیاز به توجه
+
+# Shared actions
+save: ذخیره
+cancel: انصراف
+close: بستن
+
+# Composer
+composerPlaceholder: یادداشتی بنویسید…
+composerShortcutHint: اینتر برای ثبت · شیفت+اینتر برای خط جدید
+editShortcutHint: Ctrl/⌘+Enter برای ذخیره · Esc برای انصراف
+composerAdd: افزودن یادداشت
+composerClipTab: ضمیمه کردن آدرس صفحه فعلی
+composerChecklist: افزودن چک‌لیست
+composerBullet: افزودن لیست
+composerBold: برجسته‌سازی متن
+composerCode: کد درون‌خطی
+counterWord: $1 کلمه · $2 حرف
+counterWords: $1 کلمه · $2 حرف
+
+# Reminders
+remindMe: یادآوری کن
+reminderNone: بدون یادآور
+reminderInOneHour: ۱ ساعت دیگر
+reminderThisEvening: امروز عصر
+reminderTomorrow: فردا ساعت ۹ صبح
+reminderCustom: انتخابی…
+reminderCustomLabel: انتخاب تاریخ و ساعت
+reminderToday: امروز ساعت $1
+reminderTomorrowAt: فردا ساعت $1
+reminderClear: حذف یادآور
+reminderSet: یادآور برای $1 تنظیم شد
+
+# Statuses
+statusAll: همه
+statusOpen: در انتظار
+statusDoing: در حال انجام
+statusDone: انجام شده
+statusArchived: بایگانی شده
+statusChangeTo: تغییر وضعیت به $1
+
+# List
+searchPlaceholder: جستجو در یادداشت‌ها…
+searchClear: پاک کردن جستجو
+emptyTitle: هنوز یادداشتی نیست
+emptyBody: در کادر بالا بنویسید و اینتر بزنید تا فوراً ذخیره شود.
+emptySearchTitle: یادداشتی پیدا نشد
+emptySearchBody: کلمه دیگری را جستجو کنید یا تب دیگری را انتخاب نمایید.
+emptyArchivedTitle: بایگانی خالی است
+emptyArchivedBody: یادداشت‌هایی که بایگانی می‌کنید اینجا نمایش داده می‌شوند.
+
+# A note
+noteUntitled: یادداشت بدون عنوان
+noteNoBody: بدون توضیحات
+noteActions: عملیات یادداشت
+noteEdit: ویرایش
+noteCopy: کپی کردن
+noteCopied: کپی شد!
+noteDelete: حذف
+noteDeleted: یادداشت حذف شد
+undo: بازگردانی
+notePin: سنجاق کردن به بالا
+noteUnpin: برداشتن سنجاق
+noteMarkDone: علامت‌گذاری به عنوان انجام شده
+noteReopen: بازگشایی مجدد
+noteArchive: بایگانی
+noteUnarchive: خارج کردن از بایگانی
+noteSaveFailed: ذخیره یادداشت با خطا مواجه شد. لطفاً دوباره تلاش کنید.
+noteDuplicate: تکثیر یادداشت
+noteColor: رنگ یادداشت
+colorDefault: پیش‌فرض
+colorAmber: کهربایی گرم
+colorEmerald: سبز زمردی
+colorBlue: آبی اقیانوسی
+colorPurple: بنفش یاسی
+colorRose: رز کوارتز
+reminderInMinutes: در $1 دقیقه دیگر
+tagFilter: "برچسب: #$1"
+tagsAll: همه برچسب‌ها
+exportMarkdown: خروجی مارک‌داون
+exportEmpty: یادداشتی برای خروجی وجود ندارد
+exportMarkdownDone: خروجی مارک‌داون دانلود شد!
+
+# Usage and paywall
+usageTitle: $1 از $2 یادداشت استفاده شده
+usageUnlimited: یادداشت نامحدود
+usageFull: ظرفیت رایگان تکمیل شد
+paywallTitle: شما از تمام $1 یادداشت رایگان استفاده کردید
+paywallBody: نوت‌ویسپ برای $1 یادداشت اول کاملاً رایگان است. برای یادداشت‌ها و یادآورهای نامحدود اشتراک ارتقا دهید. لغو در هر زمان.
+paywallUpgrade: ارتقا به نوت‌ویسپ پرو
+paywallPerMonth: در ماه
+paywallLater: بعداً
+paywallRestore: قبلاً مشترک شده‌اید؟ بازیابی دسترسی
+paywallManage: مدیریت اشتراک
+paywallOpening: در حال باز کردن…
+paywallFailed: باز کردن صفحه پرداخت ناموفق بود. اتصال اینترنت خود را بررسی کنید.
+proActive: طرح پرو فعال است
+proManage: تغییر یا لغو اشتراک در هر زمان ممکن است.
+proSince: تاریخ عضویت $1
+planFree: طرح رایگان
+planMonthly: طرح ماهانه
+planYearly: طرح سالانه
+planLifetime: دسترسی مادام‌العمر
+planOther: طرح ویژه
+
+# Settings
+settings: تنظیمات
+settingsTitle: تنظیمات نوت‌ویسپ
+settingsAccount: حساب کاربری و اشتراک
+settingsEmail: ایمیل
+settingsStatus: وضعیت
+statusValueActive: فعال
+statusValuePastDue: پرداخت ناموفق
+statusValueCanceled: لغو شده
+settingsRefresh: به‌روزرسانی وضعیت اشتراک
+settingsRefreshed: وضعیت اشتراک به‌روزرسانی شد
+settingsAppearance: ظاهر و پوسته
+themeSystem: هماهنگ با سیستم
+themeLight: روشن
+themeDark: تاریک
+themeOled: مشکی خالص (OLED)
+themeSepia: سپیا / کاغذی
+settingsDefaultStatus: وضعیت پیش‌فرض یادداشت‌های جدید
+settingsReminders: یادآورهای دسکتاپ
+settingsRemindersHint: غیرفعال کردن باعث می‌شود یادآورها فقط در لیست بمانند و نوتیفیکیشن دسکتاپ ارسال نشود.
+settingsData: داده‌های شما
+settingsDataHint: یادداشت‌ها فقط روی همین دستگاه ذخیره می‌شوند و هیچ اطلاعاتی در سرور آپلود نمی‌گردد.
+settingsExport: خروجی گرفتن از یادداشت‌ها
+settingsImport: وارد کردن یادداشت‌ها
+settingsReset: حذف کامل تمام اطلاعات
+settingsResetTitle: آیا همه اطلاعات حذف شود؟
+settingsResetBody: این عملیات تمامی یادداشت‌ها و تنظیمات را برای همیشه از این دستگاه پاک می‌کند و غیرقابل بازگشت است.
+settingsResetConfirm: بله، همه چیز را پاک کن
+settingsImported: $1 یادداشت با موفقیت وارد شد
+settingsImportSkipped: $1 یادداشت وارد شد و $2 مورد نامعتبر نادیده گرفته شد
+settingsImportFailed: فایل انتخاب شده یک فایل پشتیبان معتبر نوت‌ویسپ نیست.
+settingsResetDone: تمام اطلاعات با موفقیت حذف شدند
+settingsExportDone: فایل پشتیبان دانلود شد
+settingsShortcuts: کلید میانبر
+settingsShortcutOpen: باز کردن نوت‌ویسپ
+settingsShortcutHint: می‌توانید آن را در chrome://extensions/shortcuts تغییر دهید
+shortcutsTitle: کلیدهای میانبر
+shortcutsDesc: بدون برداشتن دست از کیبورد، یادداشت‌های خود را مدیریت کنید.
+shortcutAddNote: ذخیره و افزودن فوری یادداشت
+shortcutNewLine: رفتن به خط جدید
+shortcutOpenPopup: باز کردن نوت‌ویسپ از هر جا
+shortcutSaveEdit: ذخیره یادداشت در حال ویرایش
+shortcutEscape: پاک کردن جستجو / لغو ویرایش / بستن مودال
+settingsAbout: درباره
+settingsVersion: نسخه $1
+settingsPrivacy: سیاست حفظ حریم خصوصی
+settingsSaved: ذخیره شد
+
+# Selections and notifications
+contextMenuSaveSelection: ذخیره متن انتخابی در نوت‌ویسپ
+selectionSavedTitle: در نوت‌ویسپ ذخیره شد
+notificationSnoozeTen: ۱۰ دقیقه تعویق
+notificationMarkDone: انجام شد
+limitReachedTitle: سقف رایگان تکمیل شد
+limitReachedBody: شما $1 یادداشت دارید. برای یادداشت‌های نامحدود به نسخه پرو ارتقا دهید.
+
+# Errors
+errorTitle: مشکلی رخ داد
+errorRetry: تلاش مجدد
