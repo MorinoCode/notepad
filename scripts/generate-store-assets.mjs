@@ -12,7 +12,9 @@ console.log('✓ Store icon: store-assets/store-icon-128x128.png');
 const chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 
 function renderHtmlToImage(htmlContent, outputPath, width, height) {
-  const tempHtmlPath = resolve(`temp-${Date.now()}-${Math.random().toString(36).substring(7)}.html`);
+  const tempHtmlPath = resolve(
+    `temp-${Date.now()}-${Math.random().toString(36).substring(7)}.html`,
+  );
   writeFileSync(tempHtmlPath, htmlContent, 'utf-8');
 
   try {
@@ -24,11 +26,13 @@ function renderHtmlToImage(htmlContent, outputPath, width, height) {
       '--hide-scrollbars',
       '--disable-gpu',
       '--force-device-scale-factor=1',
-      fileUrl
+      fileUrl,
     ]);
     console.log(`✓ Generated: ${outputPath} (${width}x${height})`);
   } finally {
-    try { unlinkSync(tempHtmlPath); } catch {}
+    try {
+      unlinkSync(tempHtmlPath);
+    } catch {}
   }
 }
 
@@ -1114,4 +1118,3 @@ renderHtmlToImage(htmlPromo, join(STORE_DIR, 'promo-small-tile-440x280.jpg'), 44
 renderHtmlToImage(htmlMarquee, join(STORE_DIR, 'promo-marquee-1400x560.jpg'), 1400, 560);
 
 console.log('All store assets successfully generated in store-assets/ directory!');
-
